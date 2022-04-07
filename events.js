@@ -85,3 +85,10 @@ function saludo2(event) {
     console.log(event);
     console.log("Otro evento");
 }
+
+
+let date = new Date();
+date.getFullYear();
+
+let text = "Hola hoy estamos a " + date.getFullYear();
+console.log(text);
